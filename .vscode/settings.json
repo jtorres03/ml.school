@@ -8,5 +8,8 @@
         "**/mlruns": true
     },
     "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
+    "IDX.aI.enableCodebaseIndexing": true,
+    "workbench.editor.autoLockGroups": {
+        "mainThreadWebview-markdown.preview": true
+    }
 }
