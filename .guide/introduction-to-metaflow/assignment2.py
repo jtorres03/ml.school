@@ -35,9 +35,6 @@ class Assignment2(FlowSpec):
         self.final_value = sum(i.variable for i in inputs)
         self.next(self.end)
 
-
-
-
     @step
     def end(self):
         """This step sums the values from both branches."""  # noqa: D401, D404
